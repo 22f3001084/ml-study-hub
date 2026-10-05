@@ -419,3 +419,6 @@ ol.opts li:active{transform:scale(.98)}
 @keyframes shine{to{background-position:200% center}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 @media print{.pip-dock,.confetti,.vidbox video{display:none!important}.rv{opacity:1;transform:none}}
+
+.lesson-layout.together{grid-template-columns:minmax(0,1fr) 210px}
+@media (max-width:1100px){.lesson-layout.together{grid-template-columns:minmax(0,1fr)}}
